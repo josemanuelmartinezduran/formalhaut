@@ -1,0 +1,14 @@
+Tipo de sucursal,Nombre del Producto,Clave de producto,Categoría ( linea) de producto,Precio de Venta Base,Unidad de medida,¿ Se vende en el punto de venta?,Clave de producto SAT,Código de barras,Descripción larga,Peso,Volumen,Días para entregarlo al cliente,método de abastecimiento,Precio promedio de compra,¿ En qué almacen se guarda el producto?,Seguimiento (Sin seguimiento/Lote/Serie,¿ Tiene fecha de caducidad?,Días antes de caducar,Días a Consumir preferentemente,Días para quitar el producto,Tipo ,Stock Optimo,Punto de reorden,Días de garantía,,% Comisión para vendedor,% Comisión para referidos
+Spa& Tienda,Botella de aceite con Lavanda,1,Masaje,400,Unidades,Si,,,Botella de aceite con Lavanda,,,0,lo fabricamos,,Aceite Masaje,lote,Si,25,20,26,Almacenable,15,5,,,2,
+,Lavanda 250 ml,2,Masaje,440,Unidades,Si,,,Lavanda 250 ml,,,0,lo compramos,120,Aceite esencial,lote,Si,25,20,26,Almacenable,12,5,,,2,
+,Kit de toallas,3,Masaje,650,Unidades,Si,,,Kit de toallas,,,0,lo fabricamos,400,,Lote,No,25,20,26,Almacenable,10,4,,,2,
+,Mandarina 250,4,Masaje,270,Unidades,Si,,,Mandarina 250,,,4,lo compramos,100,Aceite esencial,lote,Si,25,20,26,Almacenable,5,6,,,2,
+,Botella de aceite de coco de 1l,5,Jaccuzi,350,Unidades,Si,,,Botella de aceite de coco de 1l,,,3,lo compramos,100,Aceite Masaje,lote,Si,25,20,26,Almacenable,8,3,,,2,
+,Botella de aceite de almendras de 250 ml,6,Hammam,620,Unidades,Si,,,Botella de aceite de sesamo de 250 ml,,,2,ambos,250,Aceite Masaje,lote,Si,25,20,26,Almacenable,17,2,,,2,
+,Masaje relajantes,kjh,Masaje,550,Unidades,Si,,sjadhfkjsahf,Masaje relajante de 1h,,,1,lo fabricamos,,,Sin seguimiento,,,,,Servicio,,,,,5,5
+,Masaje de Bali,kjfsdg,Masaje,650,Unidades,Si,,asjggfjga,Masaje de Bali de 1h,,,1,lo fabricamos,,,Sin seguimiento,,,,,Servicio,,,,,5,5
+,Masaje Thailandes,sñkdjfh,Masaje,780,Unidades,Si,,asjfgjahs,Masaje Thailandes de 45 min,,,3,lo fabricamos,,,Sin seguimiento,,,,,Servicio,,,,,5,5
+,Masaje piedras calientes,flsaj,Masaje,890,Unidades,Si,,kjasgfkj,Masaje piedras calientes 1 hora,,,4,lo fabricamos,,,Sin seguimiento,,,,,Servicio,,,,,10,5
+,1 hora de jaccuzi,lskjf,Jaccuzi,903,Unidades,Si,,",fagKJ",1 hora de jaccuzi,,,6,lo fabricamos,,,Sin seguimiento,,,,,Servicio,,,,,0,5
+,Hammam,alsñfh,Hammam,999,Unidades,Si,,JKAGDFk,Hammam 1 hora,,,7,lo fabricamos,,,Sin seguimiento,,,,,Servicio,,,,,0,5
+,Toalla,asflh,Toalla,260,Unidades,Si,,ajkgd,Toalla grande,,,0,lo compramos,100,General,Sin seguimiento,,,,,Almacenabl,20,10,,,0,
