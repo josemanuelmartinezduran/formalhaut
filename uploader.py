@@ -88,15 +88,10 @@ class uploader():
                     skip = False
                     for const in constraints:
                         if (const[0] == "unique"):
-                            if(u.existsInModel(model, const[1], data[const[1]], c)):
-                                print("El dato {} ya existe en la base".format(data[const[1]]))
-                                u.writeError("Línea {} unque constraint: {}".format(contador, data[const[1]]))
-                                skip = True
-                        if (const[0] == "not_null"):
-                            if(not data[const[1]] or data[const[1]]=="" or data[const[1]]==0):
-                                print("El dato {} no puede estar vacío".format(data[const[1]]))
-                                u.writeError("El dato {} no puede estar vacío".format(data[const[1]]))
-                                skip = True
+                            u.existsInModel(model, const[1], data[const[1]], c)
+                            print("El dato {} ya existe en la base".format(data[const[1]]))
+                            u.writeError("Línea {} unque constraint: {}".format(contador, data[const[1]]))
+                            skip = True
                     if not skip:
                         created = origin_class.create(data)
                         print("Created {}".format(created))
