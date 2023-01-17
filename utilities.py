@@ -17,6 +17,15 @@ class utilities():
         nuevoTexto= nuevoTexto.replace("N/A", "")
         nuevoTexto = nuevoTexto.strip()
         return nuevoTexto
+
+    def strToXBoolean(self, texto, compare, defautlreturn, if_ifnot):
+        if(if_ifnot.upper() == "IF"):
+            if(texto.upper() == compare):
+                return defautlreturn
+        else:
+            if(texto.upper() != compare):
+                return defautlreturn
+        return not defautlreturn
     
     def cleanString(self, texto):
         nuevoTexto = texto.strip()
@@ -52,6 +61,31 @@ class utilities():
         for check in check_class.search([(field, '=', value)]):
             found = True
         return found
+
+    def checkEqual(self, check, value):
+        meets = False
+        if(value ==  check):
+            meets = True
+        return meets
+
+    def checkNotEqual(self, check, value):
+        meets = False
+        if(value !=  check):
+            meets = True
+        return meets
+
+    
+    def checkIn(self, check, value):
+        meets = False
+        if(value in check):
+            meets = True
+        return meets
+
+    def checkNotIn(self, check, value):
+        meets = False
+        if(value not in  check):
+            meets = True
+        return meets
 
     def getIdNoCreate(self,nombre, model,odoo):
         category_class = odoo.env[model]
@@ -102,12 +136,13 @@ class utilities():
             return False
 
     
-    def selectionToString(self, texto, tupleList):
-        retorno = ""
+    def selectionToString(self, texto, tupleList, default):
+        retorno = default
         for elemento in tupleList:
             if texto.upper() == elemento[0].upper():
                 retorno = elemento[1]
         return retorno
+
 
 
     def writeError(self, error):
