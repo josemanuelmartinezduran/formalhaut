@@ -78,6 +78,10 @@ class uploader():
                         valor = row[f.index]
                         formated_dict = u.selectionToString(valor, f.options)
                         data[f.field] = [(6, 0, formated_dict)]
+                    elif(f.type == "many2many_comas"):
+                        valor = row[f.index]
+                        formated_dict = u.csvToMany2many(valor, f.model, f.options)
+                        data[f.field] = "[(6, 0, {})]".format(formated_dict)
                     elif(f.type=="options"):
                         valor = row[f.index]
                         opciones = f.options
