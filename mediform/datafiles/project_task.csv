@@ -1,0 +1,6 @@
+Nombre de la plantilla,Tarea,Nombre de las etapas Kanban,Descripción,Horas planificadas,¿ Es recurrente la tarea?,Frecuencia,Número de repeticiiones,Lunes,Martes,Miercoles,jueves,Viernes,Sabado,Domingo
+Plantilla Proyecto de Iluminacion,Conceptual,Concepto,Levantamiento de necesidades del cliente y generación conceptual de proyecto,24,no,Días,1,,,,,,,
+Plantilla Proyecto de Iluminacion,Anteproyecto,Anteproyecto,"Especificación técnica, sembrado de luminario, elección de luminario, posiciones",40,no,Días,1,,,,,,,
+Plantilla Proyecto de Iluminacion,Control de iluminación,Control de iluminación,"Generación de regresos, y cálculo de consumo por regreso",24,no,Días,1,,,,,,,
+Plantilla Proyecto de Iluminacion,Ejecutivo,Ejecutivo,"Generación de detalles, acotar y generación de fichas técnicas con diseño de iluminamos",24,no,Días,1,,,,,,,
+Plantilla Proyecto de Iluminacion,Entrega de proyecto,Entrega de proyecto,"Generación de planos en .pdf con simoboligia original pero protegido, y entrega de planos en .dwg sin sibología y sin detalles de colocación",4,no,Días,1,,,,,,,
